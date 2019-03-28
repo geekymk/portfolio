@@ -1,0 +1,17 @@
+@charset "UTF-8";
+*{font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
+body{overflow-y: scroll}
+html,body{margin: 0;padding: 0;height: 100%;background-color: #353535}
+
+
+.menu{background: #eaeaea}
+@media all and (min-width: 999px) {
+}
+@media all and (min-width: 300px) and (max-width: 999px) {
+	.menu{display: none}
+}
+
+.wrap{background: url('/img/me4.jpg') no-repeat 40% 65%;background-size: cover;}
+.body-background{background-color: #d3d3d3}
+
+
