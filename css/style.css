@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*녹색 #00b388*/
 *{font-family: AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
 body{overflow-y: scroll}
 html,body{margin: 0;padding: 0;height: 100%;background-color: #353535}
