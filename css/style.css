@@ -11,7 +11,7 @@ html,body{margin: 0;padding: 0;height: 100%;background-color: #353535}
 	.menu{display: none}
 }
 
-.wrap{background: url('/img/me4.jpg') no-repeat 40% 65%;background-size: cover;}
+.wrap{background: url('../img/me4.jpg') no-repeat 40% 65%;background-size: cover;}
 .body-background{background-color: #d3d3d3}
 
 
