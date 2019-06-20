@@ -6,13 +6,16 @@ html,body{margin: 0;padding: 0;height: 100%;background-color: #353535}
 
 
 .menu{background: #eaeaea}
+.menu__wrap{max-width: 785px;margin: auto;text-align: center;padding: 25px 15px 25px 200px;text-align: right;position: relative;font-size: xx-large}
+.menu__name{color: #353535;font-weight: bold;position: absolute;left: 15px}
+.menu__item{display: inline-block;font-size: x-large;color: #747474;margin-right: 30px}
+.menu__item__link{text-decoration: none;color: #747474}
 @media all and (min-width: 999px) {
 }
 @media all and (min-width: 300px) and (max-width: 999px) {
 	.menu{display: none}
 }
-
-.wrap{background: url('../img/me4.jpg') no-repeat 40% 65%;background-size: cover;}
+.wrap{background: url('../img/me4.jpg') no-repeat 40% 65%;background-size: cover;text-align: left;height: 969px;padding: 15px}
 .body-background{background-color: #d3d3d3}
 
 
