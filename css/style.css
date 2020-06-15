@@ -22,10 +22,10 @@ html,body{margin: 0;padding: 0;height: 100%;background-color: #353535}
 .article-basic{background-color: #fff;padding: 100px 0 0 0;text-align: center;font-size: large}
 .main-footer{background-color: #3d4351;text-align: center;padding: 20px 0}
 .main-footer-line{margin: 2px 0}
-.copyright{font-size: small;color: #aaa;letter-spacing: 2px}
+.copyright{font-size: small;color: #aaa;letter-spacing: 1px}
 @media all and (min-width: 300px) and (max-width: 999px) {
   .menu{display: none}
-  .mobile-header{top: 20px;left: 25px;position: fixed;z-index: 10;display: block}
+  .mobile-header{top: 20px;left: 25px;position: fixed;z-index: 10;display: block;height: 35px;}
   .mobile-header a{color: #ccc;font-weight: bold;text-decoration: none;text-shadow: rgba(0,0,0,.3) 1px 7px 3px}
   .mobile-header:hover,.mobile-header:hover{opacity: .8;cursor: pointer}
 }
@@ -42,6 +42,9 @@ a:hover{color: #ff9a9a;text-decoration: none}
 .container-fluid .row:nth-child(even){background: #f1f4f5}
 .example-title{text-align: center;margin-bottom: 60px;padding: 3em 0;border-bottom: 1px solid #E4EAEC}
 .example-title p {margin: 0 auto;font-size: 16px;max-width: 400px}
+.ext-link{margin-top: 20px}
+.ext-link a{color: #aaa;text-decoration: underline;font-size: 12px;margin-right: 15px}
+.ext-link a:last-child{margin-left: 0}
 /*==================================
     TIMELINE
 ==================================*/
@@ -62,8 +65,11 @@ a:hover{color: #ff9a9a;text-decoration: none}
 .timeline-item:not(.period):hover .timeline-marker:before {background: transparent;border: 3px solid #FF6B6B}
 /*----- TIMELINE CONTENT -----*/
 .timeline-content {padding-bottom: 40px}
-.timeline-content p{line-height: 150%}
+.timeline-content img{border-radius: 3px;box-shadow: 1px 1px 4px #666;margin-bottom: 10px}
+.timeline-content p{line-height: 150%;word-break: keep-all}
+.timeline-content p.sub{color: #888;font-size: 13px;font-weight: 600;padding-left: 10px}
 .timeline-content p:last-child {margin-bottom: 0}
+.timeline-title{word-break: keep-all}
 /*----- TIMELINE PERIOD -----*/
 .period {padding: 0}
 .period .timeline-info {display: none}
